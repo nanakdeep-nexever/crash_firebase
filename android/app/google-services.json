@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "912105191763",
+    "project_id": "crashes-38437",
+    "storage_bucket": "crashes-38437.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:912105191763:android:e23feef13f0d9ac1ec09a6",
+        "android_client_info": {
+          "package_name": "com.example.crash_firebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPCxdRKCYjzcg--XsSZUdKjtLcnVhqlOk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

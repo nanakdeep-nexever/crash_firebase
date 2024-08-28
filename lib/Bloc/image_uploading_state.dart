@@ -1,10 +1,19 @@
-part of 'image_uploading_bloc.dart';
+import '../MODEL/PHOTO_MODEL.dart';
 
-sealed class ImageUploadingState extends Equatable {
-  const ImageUploadingState();
+abstract class ProductState {}
+
+class ProductInitial extends ProductState {}
+
+class ProductLoading extends ProductState {}
+
+class ProductLoaded extends ProductState {
+  final List<Product> products;
+
+  ProductLoaded(this.products);
 }
 
-final class ImageUploadingInitial extends ImageUploadingState {
-  @override
-  List<Object> get props => [];
+class ProductError extends ProductState {
+  final String message;
+
+  ProductError(this.message);
 }

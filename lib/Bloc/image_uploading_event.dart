@@ -1,5 +1,4 @@
-part of 'image_uploading_bloc.dart';
+// lib/bloc/product_event.dart
+abstract class ProductEvent {}
 
-sealed class ImageUploadingEvent extends Equatable {
-  const ImageUploadingEvent();
-}
+class FetchProducts extends ProductEvent {}
